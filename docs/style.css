@@ -34,7 +34,7 @@ html{font-size:calc(100%*var(--fs,1))}
 .size{white-space:nowrap}
 .size button{font:600 .8rem system-ui,sans-serif;background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:5px;padding:.15rem .45rem;margin-left:.25rem;cursor:pointer}
 .size button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent)}
-.ptool{font:400 .72rem system-ui,sans-serif;font-style:normal;color:var(--muted);opacity:.5;background:none;border:0;padding:0 .3rem;cursor:pointer;text-decoration:none}
+.ptool{font:400 .72rem system-ui,sans-serif;font-style:normal;color:var(--muted);opacity:.85;background:none;border:0;padding:0 .3rem;cursor:pointer;text-decoration:none}
 .row:hover .ptool,.ptool:focus,.ptool[aria-expanded="true"]{opacity:1}
 .ptool:hover,.ptool[aria-expanded="true"]{color:var(--accent);text-decoration:underline}
 body:not(.show-scan) .scanbtn,body:not(.show-scan) .crop,.crop[hidden]{display:none}

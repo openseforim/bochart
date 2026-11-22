@@ -4,11 +4,11 @@ Machine transcription and English translation of Samuel Bochart, *Hierozoicon* (
 Latin study of the animals of the Bible, in the edition of E. F. C. Rosenmüller (Leipzig 1793–96).
 The text quotes Hebrew, Aramaic, Greek, Arabic, Syriac and a little Ethiopic and Samaritan.
 
-**Read it:** https://ezrabrand.github.io/bochart-hierozoicon/ (Latin and English side by side,
+**Read it:** https://openseforim.org/bochart/ (Latin and English side by side,
 with links to the scans).
 
-Part of a series with [low-flora](https://github.com/EzraBrand/low-flora),
-[lewysohn-zoologie](https://github.com/EzraBrand/lewysohn-zoologie) and
+Part of a series with [low-flora](https://github.com/openseforim/loew),
+[lewysohn-zoologie](https://github.com/openseforim/lewysohn) and
 [talmud-zoology-factcheck](https://github.com/EzraBrand/talmud-zoology-factcheck).
 
 ## Chapters done
@@ -151,7 +151,7 @@ ct/st, fl for ss, S for s, l/J for I) is not sent to the judge (`check.is_latin_
 Greek rule, 188 of 1,399); `spotcheck.py`, a second model that lists where the English does not match the
 Latin (report only; $0.14 for the tranche, $0.58 for all the older chapters); Ethiopic gets a transliteration
 in brackets, in code (`translate.ethiopic_translit`); `concordance.py` and the
-[Hebrew concordance](https://ezrabrand.github.io/bochart-hierozoicon/hebrew.html) of every Hebrew-letter
+[Hebrew concordance](https://openseforim.org/bochart/hebrew.html) of every Hebrew-letter
 string, for the owner's QA. That QA found ו read for ז four times; the spot-check then listed more words that
 do not fit Bochart's own romanization, and 8 of 12 were wrong on the scan (ו/ז, ד/ר, ח/ת): these letters
 look alike in this type and all the readers agreed, so nothing was flagged. Not certain: the Samaritan

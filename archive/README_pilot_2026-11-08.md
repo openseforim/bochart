@@ -6,12 +6,12 @@ OCR and English translation of Samuel Bochart, *Hierozoicon, sive bipertitum opu
 Sacrae Scripturae* (London 1663), in the edition of E. F. C. Rosenmüller (Leipzig: Breitkopf,
 1793–96, 3 vols.). **Pilot only:** Book III, ch. 33, on the shafan ("non esse Cuniculum").
 
-Same family as [low-flora](https://github.com/EzraBrand/low-flora) and
-[lewysohn-zoologie](https://github.com/EzraBrand/lewysohn-zoologie); the code is ported from
+Same family as [low-flora](https://github.com/openseforim/loew) and
+[lewysohn-zoologie](https://github.com/openseforim/lewysohn); the code is ported from
 lewysohn-zoologie. Companion: [talmud-zoology-factcheck](https://github.com/EzraBrand/talmud-zoology-factcheck),
 claim 7 (hyrax/shafan).
 
-**Reading edition (web):** https://ezrabrand.github.io/bochart-hierozoicon/ — Latin and English side
+**Reading edition (web):** https://openseforim.org/bochart/ — Latin and English side
 by side, a scan link at each page mark, each column mark of 1663 linked to the Frankfurt 1675
 scan, transliterations and identifications as tooltips, Rosenmüller's notes R1–R13 and Bochart's
 a)–c). Built by `build_site.py` into `docs/` (GitHub Pages serves `main:/docs`).
@@ -26,7 +26,7 @@ a)–c). Built by `build_site.py` into `docs/` (GitHub Pages serves `main:/docs`
 | 4. OCR of the whole pilot, pp. 408–429 (Opus main, Flash second reader), QA; Hebrew gold p. 410 | done; gold p. 410 checked by you (01-Nov-2026) |
 | 5. Second reading and vote, all scripts (`check.py`, `judge.py`, `vote.py`) | done; 40 changes; **review list for you** |
 | 6. Page joins (`entry.py`), translation (`translate.py`, rules v1) | done: [Latin](data/entries/shafan/la.md), [English](data/entries/shafan/en.md) |
-| 7. Reading edition (`build_site.py`, GitHub Pages) | done: https://ezrabrand.github.io/bochart-hierozoicon/ |
+| 7. Reading edition (`build_site.py`, GitHub Pages) | done: https://openseforim.org/bochart/ |
 | 8. Cost test; ch. 35 (*choled*, pp. 435–453) with the Batch API pipeline | done 08-Nov-2026: [COST_TEST.md](COST_TEST.md), $2.56 for 21 pages (−57% a page); [Latin](data/entries/choled/la.md), [English](data/entries/choled/en.md); **review list for you** (`logs/vote_v2-434-454.csv`) |
 
 Decisions (01-Nov-2026): Bochart's chapter synopsis, which Rosenmüller leaves out, will be added

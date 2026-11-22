@@ -416,7 +416,7 @@ export OPENROUTER_KEY_FILE="path/to/key.txt"
 
 ## License
 
-Code, transcriptions and translations: [MIT](LICENSE), © 2026 Ezra Brand. Bochart's text and
+Transcriptions and translations: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (see `LICENSE-TEXT`); code: [MIT](LICENSE); © 2026 Ezra Brand. Bochart's text and
 Rosenmüller's edition are in the public domain. The scans are by the Bayerische Staatsbibliothek
 München (MDZ), rights statement [NoC-NC 1.0](https://rightsstatements.org/vocab/NoC-NC/1.0/), and
 are not stored here.

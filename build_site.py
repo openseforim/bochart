@@ -800,7 +800,7 @@ before you cite.</p></details>
 </main>
 <a class="totop" href="#" aria-label="Back to top">↑ Top</a>
 <footer>Scans: <a href="https://www.digitale-sammlungen.de/en/view/{VOL_IDS[vol]}">Bayerische Staatsbibliothek
-München (MDZ)</a>, rights statement NoC-NC 1.0 · Transcription, translation and code: <a href="{REPO}/blob/main/LICENSE">MIT License</a> · <a href="{REPO}">{REPO.split("//")[1]}</a></footer>"""
+München (MDZ)</a>, rights statement NoC-NC 1.0 · Transcription and translation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; code: <a href="{REPO}/blob/main/LICENSE">MIT</a> · <a href="{REPO}">{REPO.split("//")[1]}</a></footer>"""
     return page_html(f"{doc['title']} · Bochart, Hierozoicon", body, doc["sub"])
 
 
@@ -864,7 +864,7 @@ book and chapter numbers; “p. 1012” in Rosenmüller's notes is a column of 1
 <li>Code, data, method and costs: <a href="{REPO}">{REPO.split("//")[1]}</a>.</li>
 </ul>
 </main>
-<footer>Scans: Bayerische Staatsbibliothek München (MDZ), NoC-NC 1.0. Transcription, translation and code: <a href="{REPO}/blob/main/LICENSE">MIT License</a>.</footer>"""
+<footer>Scans: Bayerische Staatsbibliothek München (MDZ), NoC-NC 1.0. Transcription and translation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; code: <a href="{REPO}/blob/main/LICENSE">MIT</a>.</footer>"""
     return page_html("Bochart, Hierozoicon · reading edition", body, DESC)
 
 

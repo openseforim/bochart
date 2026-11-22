@@ -16,7 +16,7 @@
       "url": "https://rightsstatements.org/vocab/NoC-NC/1.0/"
     }
   },
-  "method": "Machine transcription checked against the scan; English translation with AI models.",
+  "method": "Transcription checked against the scan; English translation with AI models.",
   "cite": "Samuel Bochart, *Hierozoicon*, Latin text with English translation, ed. Ezra Brand. Open Seforim",
   "url": "https://openseforim.org/bochart/",
   "repo": "https://github.com/openseforim/bochart",

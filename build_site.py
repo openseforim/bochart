@@ -790,8 +790,8 @@ identification, added by a program after translation from tables reviewed by han
 links to the scan of that page; “col. 1003” to that column of the 1663 edition, in the Frankfurt
 1675 reprint. Fixed links: <code>#p12</code> is a paragraph (the ¶ at its end), <code>#pg787</code> a page of
 this edition, <code>#col198</code> a column of 1663. “correct” after a paragraph opens a GitHub issue for
-that paragraph. With “Scan of the paragraph” on, “scan” after a paragraph shows its lines on the scan. R1–R13 are Rosenmüller's notes, a)–c) Bochart's. Machine output: check the scan
-before you cite.</p></details>
+that paragraph. With “Scan of the paragraph” on, “scan” after a paragraph shows its lines on the scan. R1–R13 are Rosenmüller's notes, a)–c) Bochart's.
+</p></details>
 {TOGGLES}
 <div class="scans" aria-label="Scans">{thumbs}</div>
 <div class="cols-head row"><div class="cell de">Latin (Bochart, ed. Rosenmüller)</div><div class="cell en">English</div></div>
@@ -842,7 +842,7 @@ def index_html() -> str:
 the standard early-modern study of every animal in the Bible, in Latin with Greek, Hebrew, Aramaic,
 Syriac and much Arabic, and a main source for later work on the animals of the Bible and the Talmud.
 No modern translation exists. This project gives it chapter by chapter, in the edition of
-E. F. C. Rosenmüller (Leipzig 1793–96), as a machine transcription and English translation. Done so
+E. F. C. Rosenmüller (Leipzig 1793–96), with an English translation. Done so
 far: {len(docs)} chapters, {span}. Find a verse in the <a href="passages.html">index of
 Bible passages</a>, or a word in the <a href="search.html">search</a>.</p>
 <p class="jump">{jump}</p>
@@ -851,7 +851,7 @@ the <a href="{FACTCHECK}">Talmud zoology fact-check</a> (claim 7: the hyrax and 
 {items}
 <h2>What this is</h2>
 <ul class="plain">
-<li>The transcription and the translation are machine output (Claude Opus 5.5). Every word where a
+<li>The transcription and the translation are made with Claude Opus 5.5. Every word where a
 second reader (Gemini Flash, the MDZ OCR) differs was judged on the scan, and the changes were read
 by eye; three pages (II, 410, 422, 428) were checked by hand.</li>
 <li>Bochart's citations: Bible references in modern form; classical references with Bochart's own

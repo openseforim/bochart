@@ -600,7 +600,9 @@ def page_html(title: str, body: str, desc: str = "") -> str:
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{FONTS}">
 <link rel="stylesheet" href="style.css?v={stamp(CSS)}">
-<script>try{{var t=localStorage.getItem('bh-theme');if(t)document.documentElement.setAttribute('data-theme',t);var z=localStorage.getItem('bh-size');if(z)document.documentElement.setAttribute('data-size',z)}}catch(e){{}}</script>
+<script>try{{var t=localStorage.getItem('os-theme');if(t)document.documentElement.setAttribute('data-theme',t);var z=localStorage.getItem('bh-size');if(z)document.documentElement.setAttribute('data-size',z)}}catch(e){{}}</script>
+<link rel="stylesheet" href="/assets/os.css">
+<script src="/assets/os.js" defer></script>
 </head>
 <body>
 {body}
@@ -1280,7 +1282,7 @@ JS = """(function(){
     th.addEventListener('change',function(){
       if(th.value) document.documentElement.setAttribute('data-theme',th.value);
       else document.documentElement.removeAttribute('data-theme');
-      store.set('bh-theme',th.value);});}
+      store.set('os-theme',th.value);});}
   var f=document.getElementById('filter');
   if(f){f.addEventListener('input',function(){var q=f.value.toLowerCase();
     document.querySelectorAll('table.abbr tbody tr').forEach(function(tr){

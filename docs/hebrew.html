@@ -14,7 +14,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=Noto+Serif+Hebrew&family=Noto+Sans+Syriac&family=Noto+Naskh+Arabic&family=Noto+Sans+Ethiopic&family=Noto+Sans+Samaritan&display=swap">
 <link rel="stylesheet" href="style.css?v=de1f949e">
-<script>try{var t=localStorage.getItem('bh-theme');if(t)document.documentElement.setAttribute('data-theme',t);var z=localStorage.getItem('bh-size');if(z)document.documentElement.setAttribute('data-size',z)}catch(e){}</script>
+<script>try{var t=localStorage.getItem('os-theme');if(t)document.documentElement.setAttribute('data-theme',t);var z=localStorage.getItem('bh-size');if(z)document.documentElement.setAttribute('data-size',z)}catch(e){}</script>
+<link rel="stylesheet" href="/assets/os.css">
+<script src="/assets/os.js" defer></script>
 </head>
 <body>
 <header class="site"><a class="brand" href="index.html">Bochart, <i>Hierozoicon</i> <span>· reading edition</span></a><nav><a href="index.html">Chapters</a> <a href="passages.html">Passages</a> <a href="search.html">Search</a> <a href="abbreviations.html">Abbreviations</a> <a href="names.html">Names</a> <a href="hebrew.html" aria-current=page>Hebrew</a> <a href="https://ezrabrand.github.io/talmud-zoology-factcheck/">Fact-check</a> <a href="https://github.com/openseforim/bochart">Code and data</a><label class="theme">Theme <select id="theme" aria-label="Colour theme"><option value="">Auto</option><option value="light">Light</option><option value="paper">Paper</option><option value="dark">Dark</option></select></label></nav></header>
@@ -59,6 +61,6 @@ frequent look-alike is the first place to check. Rarest first.</p>
     boxes.forEach(function(b){b.closest('tr').style.display=(!only||b.checked)?'':'none';});});
   document.getElementById('clearflags').addEventListener('click',function(){if(!confirm('Remove all flags?'))return;set={};boxes.forEach(function(b){b.checked=false});save();});
 })();</script>
-<script src="app.js?v=3f1675cd"></script>
+<script src="app.js?v=3e353104"></script>
 </body>
 </html>

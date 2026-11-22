@@ -3,10 +3,10 @@
   "slug": "bochart",
   "order": 50,
   "kind": "translation",
-  "title": "Samuel Bochart, Hierozoicon",
-  "short_title": "Hierozoicon",
+  "title": "Samuel Bochart, *Hierozoicon*",
+  "short_title": "*Hierozoicon*",
   "author": "Samuel Bochart (1599–1667)",
-  "status_label": "In progress: 94 chapters",
+  "status_label": "In progress · 94 chapters",
   "summary": "The classic study of the animals of the Bible (1663): Latin text and English translation side by side, with links to the scans.",
   "base_edition": {
     "label": "ed. E. F. C. Rosenmüller, Leipzig 1793–96 (scans: Munich Digitization Center)",
@@ -17,7 +17,7 @@
     }
   },
   "method": "Machine transcription checked against the scan; English translation with AI models.",
-  "cite": "Samuel Bochart, Hierozoicon, Latin text with English translation, ed. Ezra Brand. Open Seforim",
+  "cite": "Samuel Bochart, *Hierozoicon*, Latin text with English translation, ed. Ezra Brand. Open Seforim",
   "url": "https://openseforim.org/bochart/",
   "repo": "https://github.com/openseforim/bochart",
   "licence": {

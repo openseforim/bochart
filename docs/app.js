@@ -109,8 +109,8 @@
     var chap=document.title.split(' · ')[0];
     document.querySelectorAll('.row[id^="p"]').forEach(function(row){
       var host=row.querySelector('.cell.en a.anchor'), scan=row.getAttribute('data-scan'); if(!host) return;
-      var fix=document.createElement('a'); fix.className='ptool fix'; fix.textContent='correct'; fix.target='_blank'; fix.rel='noopener';
-      fix.title='Suggest a correction to this paragraph (opens a GitHub issue)';
+      var fix=document.createElement('a'); fix.className='ptool fix'; fix.textContent='report a mistake'; fix.target='_blank'; fix.rel='noopener';
+      fix.title='Report a mistake in this paragraph (opens a GitHub issue)';
       function href(){
         var s=window.getSelection(), t=s&&s.rangeCount&&row.contains(s.anchorNode)?String(s).replace(/\s+/g,' ').trim().slice(0,300):'';
         var body='Paragraph: '+location.origin+location.pathname+'#'+row.id+'\n'+(t?'Words: "'+t+'"\n':'')+'\nWhat is wrong:\n\nWhat it should be:\n';

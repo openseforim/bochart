@@ -6,11 +6,15 @@
   "title": "Samuel Bochart, Hierozoicon",
   "short_title": "Hierozoicon",
   "author": "Samuel Bochart (1599–1667)",
-  "status_label": "Translation in progress",
+  "status_label": "In progress: 94 chapters",
   "summary": "The classic study of the animals of the Bible (1663): Latin text and English translation side by side, with links to the scans.",
   "base_edition": {
     "label": "ed. E. F. C. Rosenmüller, Leipzig 1793–96 (scans: Munich Digitization Center)",
-    "scan_url": "https://www.digitale-sammlungen.de/"
+    "scan_url": "https://www.digitale-sammlungen.de/",
+    "scan_rights": {
+      "name": "NoC-NC 1.0",
+      "url": "https://rightsstatements.org/vocab/NoC-NC/1.0/"
+    }
   },
   "method": "Machine transcription checked against the scan; English translation with AI models.",
   "cite": "Samuel Bochart, Hierozoicon, Latin text with English translation, ed. Ezra Brand. Open Seforim",

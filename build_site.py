@@ -798,9 +798,7 @@ before you cite.</p></details>
 {"".join(rows)}
 {notes_html}
 </main>
-<a class="totop" href="#" aria-label="Back to top">↑ Top</a>
-<footer>Scans: <a href="https://www.digitale-sammlungen.de/en/view/{VOL_IDS[vol]}">Bayerische Staatsbibliothek
-München (MDZ)</a>, rights statement NoC-NC 1.0 · Transcription and translation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; code: <a href="{REPO}/blob/main/LICENSE">MIT</a> · <a href="{REPO}">{REPO.split("//")[1]}</a></footer>"""
+<a class="totop" href="#" aria-label="Back to top">↑ Top</a>"""
     return page_html(f"{doc['title']} · Bochart, Hierozoicon", body, doc["sub"])
 
 
@@ -863,8 +861,7 @@ book and chapter numbers; “p. 1012” in Rosenmüller's notes is a column of 1
 <li>Each page links to the scan: please check it before citing anything.</li>
 <li>Code, data, method and costs: <a href="{REPO}">{REPO.split("//")[1]}</a>.</li>
 </ul>
-</main>
-<footer>Scans: Bayerische Staatsbibliothek München (MDZ), NoC-NC 1.0. Transcription and translation: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>; code: <a href="{REPO}/blob/main/LICENSE">MIT</a>.</footer>"""
+</main>"""
     return page_html("Bochart, Hierozoicon · reading edition", body, DESC)
 
 
@@ -1379,8 +1376,8 @@ JS = """(function(){
     var chap=document.title.split(' · ')[0];
     document.querySelectorAll('.row[id^="p"]').forEach(function(row){
       var host=row.querySelector('.cell.en a.anchor'), scan=row.getAttribute('data-scan'); if(!host) return;
-      var fix=document.createElement('a'); fix.className='ptool fix'; fix.textContent='correct'; fix.target='_blank'; fix.rel='noopener';
-      fix.title='Suggest a correction to this paragraph (opens a GitHub issue)';
+      var fix=document.createElement('a'); fix.className='ptool fix'; fix.textContent='report a mistake'; fix.target='_blank'; fix.rel='noopener';
+      fix.title='Report a mistake in this paragraph (opens a GitHub issue)';
       function href(){
         var s=window.getSelection(), t=s&&s.rangeCount&&row.contains(s.anchorNode)?String(s).replace(/\\s+/g,' ').trim().slice(0,300):'';
         var body='Paragraph: '+location.origin+location.pathname+'#'+row.id+'\\n'+(t?'Words: "'+t+'"\\n':'')+'\\nWhat is wrong:\\n\\nWhat it should be:\\n';

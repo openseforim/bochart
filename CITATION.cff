@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this edition, please cite it as below."
+title: "Samuel Bochart, Hierozoicon: reading edition with English translation"
+type: dataset
+authors:
+  - family-names: Brand
+    given-names: Ezra
+abstract: "The classic study of the animals of the Bible (1663): Latin text and English translation side by side, with links to the scans. Transcription checked against the scan; English translation with AI models."
+license: CC-BY-SA-4.0
+url: "https://openseforim.org/bochart/"
+repository-code: "https://github.com/openseforim/bochart"
+keywords:
+  - "Judaica"
+  - "Hebrew"
+  - "digital humanities"
+  - "translation"
+  - "digital edition"

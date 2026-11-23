@@ -1,5 +1,7 @@
 # bochart-hierozoicon
 
+Cite as: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24458141.svg)](https://doi.org/10.5281/zenodo.24458141) (Zenodo; this DOI always points to the newest release)
+
 Machine transcription and English translation of Samuel Bochart, *Hierozoicon* (London 1663), a
 Latin study of the animals of the Bible, in the edition of E. F. C. Rosenmüller (Leipzig 1793–96).
 The text quotes Hebrew, Aramaic, Greek, Arabic, Syriac and a little Ethiopic and Samaritan.

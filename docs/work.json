@@ -20,6 +20,7 @@
   "cite": "Samuel Bochart, *Hierozoicon*, Latin text with English translation, ed. Ezra Brand. Open Seforim",
   "url": "https://openseforim.org/bochart/",
   "repo": "https://github.com/openseforim/bochart",
+  "doi": "10.5281/zenodo.24458141",
   "licence": {
     "name": "CC BY-SA 4.0 (texts and translations); code: MIT",
     "url": "https://creativecommons.org/licenses/by-sa/4.0/"
